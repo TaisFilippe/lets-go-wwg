@@ -17,6 +17,5 @@ func main() {
 		fmt.Println("Digite um número:")
 		fmt.Scan(&numero)
 	}
-
-	fmt.Println("Finalmente seu tongo")
+	fmt.Println("Finalmente um numero par")
 }
