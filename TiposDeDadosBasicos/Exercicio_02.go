@@ -11,12 +11,12 @@ import (
 func main() {
 	fmt.Println("Digite o ano que vc nasceu:")
 
-	var birthdayYear int
-	fmt.Scan(&birthdayYear)
+	var birthYear int
+	fmt.Scan(&birthYear)
 
 	todayYear := time.Now().Year()
 
-	age := todayYear - birthdayYear
+	age := todayYear - birthYear
 
 	fmt.Println(age)
 
